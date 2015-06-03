@@ -1,0 +1,15 @@
+#btn {
+	background-color: #1c1e2d;
+}
+
+#btn:hover {
+	background-color: #88C470;
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+}
