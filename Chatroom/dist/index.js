@@ -87,12 +87,16 @@ $(document).ready(function(){
 						 var url = validator.contains(msgTxt, "http://");
 						 var jpg = validator.contains(msgTxt, "jpg");
 						 var png = validator.contains(msgTxt, "png");
+						 var gif = validator.contains(msgTxt, "gif");
 						 var sound = 
 						 console.log(url && jpg || url && png);
 						 if(url && png) {
 						 	returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
 						 }
 						 else if(url && jpg) {
+						 	returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
+						 }
+						 else if(url && gif) {
 						 	returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
 						 }
 						 else {
@@ -235,6 +239,7 @@ $(document).ready(function(){
 					 var url = validator.contains(msgTxt, "http://");
 					 var jpg = validator.contains(msgTxt, "jpg");
 					 var png = validator.contains(msgTxt, "png");
+					 var gif = validator.contains(msgTxt, "gif");
 					 console.log(url && jpg || url && png);
 					 if(url && png) {
 					 	returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
@@ -242,6 +247,9 @@ $(document).ready(function(){
 					 else if(url && jpg) {
 					 	returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
 					 }
+					else if(url && gif) {
+						 returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
+					}
 					else {
 						returnHtml = returnHtml + "<div class='comment'>"+ "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")"+": " + msgTxt+ "</div>";
 					}
@@ -274,7 +282,7 @@ $(document).ready(function(){
 		
 				var snd = new Audio("GTalkNotify 2.mp3");
 				snd.play();
-				
+
 				var myObj = {
 					chatroom: 3,
 					username: $("#user").val(),
@@ -325,13 +333,17 @@ $(document).ready(function(){
 					 var url = validator.contains(msgTxt, "http://");
 					 var jpg = validator.contains(msgTxt, "jpg");
 					 var png = validator.contains(msgTxt, "png");
+					 var gif = validator.contains(msgTxt, "gif");
 					 console.log(url && jpg || url && png);
 					 if(url && png) {
 					 	returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
 					 }
 					 else if(url && jpg) {
 					 	returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
-					 }					 
+					 }
+					else if(url && gif) {
+						 returnHtml = returnHtml + "<div class='comment'>" + "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")" + ": " + "<img src="+msgTxt+">" + "</div>";
+					}					 
 					else { 
 						returnHtml = returnHtml + "<div class='comment'>"+ "<strong>"+currentMessage.username +"</strong>"+ " ("+moment(messageTime).format("hh: mm") + ")"+": " + msgTxt+ "</div>";
 					}
