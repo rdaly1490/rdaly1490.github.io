@@ -1,0 +1,107 @@
+body {
+  background-color: #eeeeee;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: rgba(255,255,255,.8);
+}
+
+p {
+  line-height: 2rem;
+}
+
+li {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: rgba(255,255,255,.8);
+}
+
+.desktopview {
+  display:none;
+}
+
+.parallax-container {
+  text-shadow: 2px 2px 2px black;
+  width:100%;
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.pic {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 10%;
+}
+
+.nav-links li{
+  height:64px;
+  line-height: 64px;
+  vertical-align: middle;
+}
+
+#social-media img {
+  height:2rem;
+  width:2rem;
+  margin-right: 0.5rem;
+  opacity:0.8;
+}
+
+.pichold {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-footer {
+  color: rgba(255,255,255,.8);
+}
+
+#about-list {
+  margin-bottom: 8rem;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (min-width : 600px) {
+  .mobileview {
+    display:none;
+  }
+  .desktopview {
+    display: block;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

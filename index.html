@@ -1,89 +1,321 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Rdaly1490.GitHub.io by rdaly1490</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Daly Web Development</title>
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/rdaly1490">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="node_modules/materialize-css/bin/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
 
-    <div class="wrapper">
+<!--          ___________________Nav___________________ -->
 
-      <section>
-        <div id="title">
-          <h1>Rdaly1490.GitHub.io</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/rdaly1490">rdaly1490</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+  <nav class="white" role="navigation">
+      <div class="nav-wrapper orange darken-4">
+          <a href="#!" class="brand-logo">DalyWebDev</a>
+          <a href="#" data-activates="mobile-demo" class="right button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down nav-links">
+            <li><a class="waves-effect waves-light" href="#">Home</a></li>
+            <li><a class="waves-effect waves-light" href="#">About</a></li>
+            <li><a class="waves-effect waves-light" href="#">Contact</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      </div>
+  </nav>
+
+
+<!-- ________________________Hero Img______________________ -->
+
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center orange-text text-darken-4">Hi, I'm Rob</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">JavaScript Junkie, Web Developer, All Around Good Guy</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="portfolioHero.jpg" alt="Unsplashed background img 1">
+    </div>
+  </div>
+
+<!-- ________________________About______________________ -->
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+          <img class="responsive-img z-depth-5 center pic" src="profpic.jpg">
+          <h3 class="center">About Me</h3>
+          <ul id="about-list">
+            <li>New Yorker at heart, Engineer by degree, and web developer by passion.  I'm currently residing in beautiful Austin, Texas and filling my time with coffee binges and late night coding sessions.
+            </li>
+            <li>I'm a graduate of The Iron Yard code school and I do freelance work to help people get their small companies up and running.  Feel free to contact me and we can grab an obligation-free cup of coffee some time.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ________________________Fitkora Mobile Img______________________ -->  
+  <div class="container mobileview">
+    <img class="responsive-img" src="iobrewmobile.png">
+  </div>
+
+  <!-- ________________________ioBrew Parallax______________________ -->
+
+  <div class="parallax-container valign-wrapper desktopview">
+    <div class="section no-pad-bot">
+      <div class="container">
+      </div>
+    </div>
+    <div class="parallax"><img src="iobrewpic.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+<!-- ________________________Icons for ioBrew______________________ -->
+
+    <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">live_help</i></h2>
+            <h5 class="center">What is it?</h5>
+
+            <p class="light">ioBrew is a webapp I created for keeping track of drinks owed between friends in a fun, social way  Some of the features are cross user functionality, achievement tracking, and automatic email reminders, just to name a few.  For this project I built out both the frontend and the backend, along with creating the web page's design.</p>
+          </div>
         </div>
 
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Rob Daly's Portfolio.</h3>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Technologies Used</h5>
+            <p class="light">The following technologies were used in the creation of this project:</p>
+            <div class="col s6 m6 light">
+              <ul>
+                <h6>Front-End</h6>
+                <li>- React</li>
+                <li>- JQuery</li>
+                <li>- Backbone</li>
+                <li>- Bootstrap</li>
+              </ul>
+            </div>
+            <div class="col s6 m6 light">
+              <ul>
+                <h6>Back End</h6>
+                <li>- Node</li>
+                <li>- Express</li>
+                <li>- MongoDB</li>
+                <li>- Mongoose</li>
+                <li>- Stormpath</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-<p>On this page you will find links to my work:</p>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">language</i></h2>
+            <h5 class="center">Project Links</h5>
 
-<ul>
-
-
-  <li><a href="Chatroom/dist/index.html">Chatroom</a></li>
-
-
-  <li><a href="responsive_kitten/index.html">Responsive Site</a></li>
-
-  <p>Lorem ipsum Deserunt ullamco Ut in tempor velit minim mollit incididunt enim sit commodo. Lorem ipsum Ut Duis deserunt exercitation labore Duis Duis cupidatat sunt. Lorem ipsum Nostrud fugiat ullamco ea qui voluptate fugiat ullamco ullamco veniam exercitation consectetur.</p>
-  <li><a href="contact_form/index.html">Contact Form</a></li>
-
-  <p>Lorem ipsum Sint ea elit proident aliqua Ut aliquip sit. Lorem ipsum Adipisicing quis reprehenderit occaecat sit tempor magna Ut sint adipisicing. Lorem ipsum Aliquip reprehenderit sed ex sed consectetur. Lorem ipsum Ullamco labore irure id anim officia Excepteur nisi eu. Lorem ipsum Nulla dolor irure veniam est sed non esse ut veniam.</p>
-
-  <li><a href="login_page/index.html">Login Page</a></li>
-
-  <p>Lorem ipsum Nostrud eiusmod eiusmod elit magna dolore mollit pariatur nulla in minim sunt reprehenderit. Lorem ipsum Do incididunt consequat dolor deserunt ad anim eu non occaecat Excepteur. Lorem ipsum Esse nisi dolore cillum in laborum. Lorem ipsum Ad aliquip et adipisicing non nulla voluptate cupidatat dolor commodo fugiat. Lorem ipsum Irure cupidatat id magna irure sit enim laboris.</p>
-
-</ul>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+            <p class="light">
+            Feel free to check out the link below to the live site hosted on Heroku.  If you're a code junkie, check out the link below that one for the github repo containing my source code:
+              <ul class="light center">
+                <li><a target="_blank" href="https://iobrew.herokuapp.com/">Link to live site</a></li>
+                <li><a target="_blank" href="https://github.com/rdaly1490/ioBrew">Link to Github Repo</a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
 
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+  </div>
+
+<!-- ________________________Fitkora Mobile Img______________________ -->  
+  <div class="container mobileview">
+    <img class="responsive-img" src="fitkoramobilepic.png">
+  </div>
+
+<!-- ________________________Fitkora Parallax______________________ -->
+
+    </div>
+  </div>
+    <div class="parallax-container valign-wrapper desktopview">
+    <div class="section no-pad-bot">
+      <div class="container">
+      </div>
+    </div>
+    <div class="parallax"><img src="fitkorapic.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+<!-- ________________________Icons for Fitkora______________________ -->
+
+    <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">live_help</i></h2>
+            <h5 class="center">What is it?</h5>
+
+            <p class="light">Fitkora is a freelance project designed for a small business owner.  It's hosted on the CloudCannon CMS and I made it editable for my client.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Technologies Used</h5>
+            <p class="light">The following technologies were used in the creation of this project:</p>
+            <div class="col s12 m8 light">
+              <ul>
+                <h6>Front-End</h6>
+                <li>- JQuery</li>
+                <li>- Jekyll</li>
+                <li>- Bootstrap</li>
+                <li>- CloudCannon</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">language</i></h2>
+            <h5 class="center">Project Links</h5>
+
+            <p class="light">
+            Check out the link below to the live site hosted on BlueHost.  If you want to check out the source code click the link for my github repo:
+              <ul class="light center">
+                <li><a target="_blank" href="http://fitkora.com/">Link to live site</a></li>
+                <li><a target="_blank" href="https://github.com/rdaly1490/project">Link to Github Repo</a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!-- ________________________Ironspiration Mobile Img______________________ -->  
+  <div class="container mobileview">
+    <img class="responsive-img" src="ironspirationmobilepic.png">
+  </div>
+
+  <!-- ________________________Ironspiration Parallax______________________ -->
+
+  <div class="parallax-container valign-wrapper desktopview">
+    <div class="section no-pad-bot">
+      <div class="container">
+      </div>
+    </div>
+    <div class="parallax"><img src="ironspiration.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+<!-- ________________________Icons for Ironspiration______________________ -->
+
+    <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">live_help</i></h2>
+            <h5 class="center">What is it?</h5>
+
+            <p class="light">Ironspiration is a site created during a weekend long hackathon.  The site is a place where Iron Yard code school students can post past projects they've completed to give future students ideas and share best practices.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Technologies Used</h5>
+            <p class="light">The following technologies were used in the creation of this project:</p>
+            <div class="col s12 m8 light">
+              <ul>
+                <h6>Front-End</h6>
+                <li>- React</li>
+                <li>- JQuery</li>
+                <li>- Backbone</li>
+                <li>- Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">language</i></h2>
+            <h5 class="center">Project Links</h5>
+
+            <p class="light">
+            Feel free to check out the link below to the live site hosted on Heroku.  If you're a code junkie, check out the link below that one for the github repo containing my source code:
+              <ul class="light center">
+                <li><a target="_blank" href="http://ironspiration.herokuapp.com/">Link to live site</a></li>
+                <li><a target="_blank" href="https://github.com/vvj5/ironspiration">Link to Github Repo</a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div> 
+
+
+<!-- ________________________Footer______________________ -->
+
+  <footer class="page-footer orange darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact Me</h5>
+          <p class="grey-text text-lighten-4">You can contact me via email at dalywebdev@gmail.com or reach out to me on any of these social media sites:</p>
+        </div>
+        <div id="social-media" class="col l3 s12">
+          <h5 class="white-text">Social Media</h5>
+          <a class="white-text" target="_blank" href="https://twitter.com/dalywebdev">
+            <img src="twitterwhite.png">
+          </a>
+          <a class="white-text" target="_blank" href="https://github.com/rdaly1490">
+            <img src="github.png">
+          </a>
+          <a class="white-text" target="_blank" href="https://www.linkedin.com/in/dalyrobert">
+            <img src="linkedin.png">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="node_modules/materialize-css/bin/materialize.js"></script>
+  <script src="js/init.js"></script>
+
   </body>
 </html>
