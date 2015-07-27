@@ -1,5 +1,28 @@
 $(document).ready(function(){
-	$('.button-collapse').sideNav();
+
+	(function($) {
+    $.fn.goTo = function() {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top + 'px'
+        }, 'fast');
+        return this; // for chaining...
+    }
+	})(jQuery);
+
+	$(".contact-me").on("click", function(e){
+		$('.page-footer').goTo();
+	});
+
+	$(".about-me").on("click", function(e){
+		$('.pic').goTo();
+	});
+
+	$('.button-collapse').sideNav({
+	      menuWidth: 250, // Default is 240
+	      edge: 'right', // Choose the horizontal origin
+	      closeOnClick: true // Closes side-nav on <a> clicks
+	    }
+  	);
     $('.parallax').parallax();
 
     var options=[
@@ -7,7 +30,4 @@ $(document).ready(function(){
     ];
 
     // Materialize.scrollFire(options);
-    // $("#contact-me").click(function(){
-    // 	$('body').scrollTo('.page-footer',{duration:'slow', offsetTop : '50'});
-    // };
 });

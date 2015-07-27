@@ -70,6 +70,10 @@ li {
   margin-bottom: 8rem;
 }
 
+.front-12 {
+  text-align: center;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -87,11 +91,34 @@ li {
 }
 
 @media only screen and (min-width : 600px) {
+  #front-pad {
+    padding: 0px;
+  }
+
+  #back-pad {
+    padding: 0px;
+  }
   .mobileview {
     display:none;
   }
   .desktopview {
     display: block;
+  }
+  .front-12 {
+    text-align: left;
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (min-width : 650px) {
+  .front-12 {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (min-width : 750px) {
+  .front-12 {
+    font-size: 1rem;
   }
 }
 
