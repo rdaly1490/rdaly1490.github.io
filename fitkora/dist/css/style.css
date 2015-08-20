@@ -1,0 +1,545 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+.navbar {
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	position: fixed;
+	width:100%;
+	z-index: 1000;
+}
+
+.navbar .nav-elements {
+	padding:0px;
+	text-align: center;
+	height:2.5em;
+	font-size: 0.65em;
+	line-height: 2.0em;
+	vertical-align: middle;
+	opacity:1;
+	color:white;
+}
+
+.nav-elements a {
+	color: white;
+}
+
+.nav-elements a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color:white;
+}
+
+.mini-logo {
+	padding-top: 250px
+}
+
+.mini-logo img{
+	min-height:250px;
+}
+
+.main {
+	background: url(../images/dbgloves.jpg);
+	height:400px;
+	background-position: center;
+	background-size: cover;
+	border-top: 2.3em solid black;
+	border-bottom: 2.3em solid black;
+}
+
+#logo-box {
+padding-top: 380px;
+}
+
+#logo-box img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reviews {
+	background-color: #f6f3ea;
+	border-top: 2px solid black;
+	padding-top: 20px;
+}
+
+.gloves {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.gloves p {
+	color:gray;
+	font-size: 11px;
+}
+
+.gloves img {
+	min-height:300px;
+	min-width:300px;
+	margin-top: 3em;
+}
+
+.gloves h1 {
+	margin-bottom: 30px;
+}
+
+.benefits {
+	padding-top: 3em;
+}
+
+.benefits .well {
+	text-align: center;
+	background-color: white;
+	border:none;
+	margin-bottom: 0px;
+}
+
+.circles {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 50%;
+	width:80px;
+	height:80px;
+	border: 15px solid black;
+	font-weight: bold;
+	font-size: 3em;
+	line-height: 50px;
+	vertical-align: middle;
+	color: #a82c2f;
+}
+
+.circles .well {
+	color: red;
+}
+
+.star {
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/star2.jpeg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	width:80px;
+	height:80px;
+	text-align: center;
+	border: 5px solid black;
+}
+
+.reviews h5 {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.reviews h4 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.reviews p {
+	text-align: center;
+	color:gray;
+}
+
+.benefits img {
+	margin-bottom: 80px;
+}
+
+.well {
+	background-color: #ededed;
+}
+
+.star:before {
+  content: "\25BC";
+  text-shadow: 1px 1px 0px black, -1px 1px 0px black;
+  color: #ededed;
+  font-size: 2em;
+  position: relative;
+  top: -50%;
+}
+
+.nav-elements:hover {
+	background: rgba(0, 0, 0, 0.7);;
+}
+
+.item img {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.active {
+	  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+}
+
+#refs {
+	font-size: 10px;
+	margin-top:-2%;
+	margin-bottom: 2em;
+}
+
+#photo {
+	margin-top: -5%;
+}
+
+#refs p{
+	margin-bottom:0;
+}
+
+.foot a {
+	color:#d92727;
+	float: right;
+	line-height: 5em;
+	vertical-align: middle;
+	font-size: 6px;
+}
+
+.foot a:hover {
+	text-decoration: none;
+	color:#d92727;
+	font-weight: bold;
+}
+
+.foot p {
+	float: left;
+	line-height: 5em;
+	vertical-align: middle;
+	font-size: 6px;
+}
+
+footer {
+	height:5em;
+	border-top: 2px solid black;
+}
+
+#contact-page {
+	margin-top: 0px;
+	text-align: center;
+}
+
+label {
+	display:block;
+	margin-top: 20px;
+}
+
+#email {
+	width:100%;
+}
+
+#name {
+	width:100%;
+}
+
+#message {
+	width:100%;
+	height:15em;
+}
+
+#message {
+	display:block;
+}
+
+#contact-btn {
+	border-radius: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float:right;
+	background-color: #f7e9b3;
+	border:none;
+}
+
+#contact-form p{
+	color:black;
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+#contact-form h2{
+	color:black;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#contact-form h3{
+	color:black;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#about-text {
+	border-left:1px solid black;
+}
+
+#refs a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#contact-btn:hover {
+	background-color: #88C470;
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+}
+
+#msg-sent {
+	text-align: center;
+}
+
+.reviews .well {
+	border: 1px solid black;
+	margin-bottom: 18px;
+}
+
+.reviews h4 span {
+	color:red;
+}
+
+.reviews h5 a{
+	color:#000;
+	font-size: 12px;
+	color:gray;
+}
+
+.reviews h5 a:hover{
+	text-decoration: none;
+	font-weight:bold;
+}
+
+@media (min-width: 374px) {
+	.navbar .nav-elements {
+	font-size: 0.8em;
+	}
+	.foot a {
+	font-size: 8px;
+	}
+
+	.foot p {
+	font-size: 8px;
+	}
+	.star:before {
+	top: -51%;
+	}
+	#contact-form p{
+	font-size: 11px;
+	}
+	#nav-clicks {
+	font-size: 0.85em;
+	margin-left: -10%;
+	}
+}
+
+@media (min-width: 450px) {
+	.navbar .nav-elements {
+	font-size: 0.9em;
+	}
+	.foot a {
+	font-size: 10px;
+	}
+
+	.foot p {
+	font-size: 10px;
+	}
+	.star:before {
+	top: -52%;
+	}
+	#contact-form p{
+	font-size: 14px;
+	}
+
+	#contact-form h2{
+	font-size: 16px;
+	}
+
+	#contact-form h3{
+	font-size: 15px;
+	}
+	#nav-clicks {
+	font-size: 0.92em;
+	}
+}
+
+@media (min-width: 600px) {
+	.foot a {
+	font-size: 14px;
+	}
+
+	.foot p {
+	font-size: 14px;
+	}
+
+	.reviews h4 {
+		font-size: 24px;
+	}
+
+	.gloves p {
+		font-size: 14px;
+	}
+
+	#contact-btn {
+		font-size: 20px;
+		margin-right: 20px;
+	}
+
+	#address p {
+		font-size: 18px;
+	}
+
+	#address h2 {
+		font-size: 36px;
+	}
+
+	#address h3{
+		font-size: 26px;
+	}
+	#contact-form p{
+	font-size: 15px;
+	}
+
+	#contact-form h2{
+	font-size: 19px;
+	}
+
+	#contact-form h3{
+	font-size: 17px;
+	}
+	#nav-clicks {
+	font-size: 1.25em;
+	}
+	#refs {
+	font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	.benefits p {
+		font-size: 1.25em;
+	}
+
+	.benefits div .well p {
+		font-size: 1.5em;
+	}
+
+	.reviews div .well {
+		font-size: 1.25em;
+	}
+
+	.reviews p {
+		font-size: 1.25em;
+	}
+
+	.star:before {
+		font-size: 2.2em;
+		top:-53%;
+	}
+
+	#logo-box {
+	padding-top: 380px;
+	}
+
+	.navbar .nav-elements {
+	font-size: 1.2em;
+	}
+
+	.foot a {
+	font-size: 18px;
+	}
+
+	.foot p {
+	font-size: 18px;
+	}
+
+	.reviews h4 {
+		font-size: 30px;
+	}
+
+	.gloves p {
+		font-size: 18px;
+	}
+	#about-text p{
+	font-size: 18px;
+	}
+
+	#contact-form h2{
+	font-size: 20px;
+	}
+
+	#contact-form h3{
+	font-size: 18px;
+	}
+	#refs {
+	font-size: 16px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.benefits .well {
+		min-height:400px;
+	}
+
+	.bottom {
+		min-height: 250px;
+	} 
+
+	.well {
+		font-size: 0.65em;
+	}
+
+	.reviews div .well {
+		font-size: 1.1em;
+	}
+
+	.well h3 {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.benefits div .well p {
+	font-size: 1.5em;
+	}
+
+	#contact-btn {
+		margin-right: 100px;
+		width:200px;
+	}
+	#message-id {
+		margin-left: 20px;
+	}
+	#about-text p{
+	font-size: 22px;
+	}
+
+	#contact-form h2{
+	font-size: 24px;
+	}
+
+	#contact-form h3{
+	font-size: 22px;
+	}
+	#nav-clicks {
+	margin-left: 0px;
+	}
+}
+@media (min-width: 1000px) {
+	.benefits .well {
+		min-height:200px;
+		height:320px;
+	}
+
+}
+
+@media (min-width: 1000px) {
+	.benefits .well {
+		min-height:200px;
+		height:320px;
+	}
+
+}
+
